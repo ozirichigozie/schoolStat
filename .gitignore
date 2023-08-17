@@ -402,3 +402,4 @@ FodyWeavers.xsd
 .config
 .replit
 *.nix
+*.zip
