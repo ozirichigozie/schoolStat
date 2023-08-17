@@ -89,15 +89,15 @@ function studyTracks() {
         <ol class='row row-responsive'>
             <li class='col-md-4'>
                 <h3>Cloud Engr.</h3>
-                <img src='.img/cloud.jpg' id='tracks' alt='Photo depicting cloud engr.'/>
+                <img src='./img/cloud.jpg' id='tracks' alt='Photo depicting cloud engr.'/>
             </li>
             <li class='col-md-4'>
                 <h3>Frontend</h3>
-                <img src='.img/frontend.jpg' id='tracks' alt='Photo illustrating frontend'/>
+                <img src='./img/frontend.jpg' id='tracks' alt='Photo illustrating frontend'/>
             </li>
             <li class='col-md-4'>
                 <h3>Backend</h3>
-                <img src='.img/backend.jpg' id='tracks' alt='Photo illustrating backend'/>
+                <img src='./img/backend.jpg' id='tracks' alt='Photo illustrating backend'/>
             </li>
         </ol>
     `
