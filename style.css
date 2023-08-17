@@ -1,0 +1,24 @@
+body {
+    background-color: whitesmoke;
+}
+a :hover{
+    text-decoration: none;
+}
+ol {
+    list-style: none;
+}
+#instructors, #tracks {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+#logoImage {
+    margin-top: 10px;
+    width: 90px;
+    height: 50px;
+}
+
+#dashButtons {
+    background-color: antiquewhite;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>SchoolStat</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- bootstrap files -->
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+    integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+</head>
+
+<body onload="welcomeAlert()">
+  <div class="container-fluid sticky-sm-top bg-white" id="dashboard">
+    <div class="row row-responsive">
+      <div class="col-sm-6 text-left">
+        <h1 class="m-5 fw-bolder">
+          <a href="#dashboard">Dashboard</a>
+        </h1>
+      </div>
+      <div class="col-sm-6 text-right">
+        <img src="altlogo.png" id="logoImage" alt="icon">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center p-5" id="dashButtons">
+    <div class="container-fluid row row-responsive">
+      <div class="p-5 m-3 btn btn-large btn-primary col-md" onclick="instructors()">Instructors</div>
+      <div class="p-5 m-3 btn btn-large btn-primary col-md" onclick="studyTracks()">Study Tracks</div>
+    </div>
+    <!--How many courses a given instructor is taking-->
+
+    <!--How many students are in each of the tracks (frontend, backend and cloud)-->
+
+    <div class="container-fluid row row-responsive">
+      <div class="p-5 m-3 btn btn-large btn-primary col-md" onclick="studentsGenderAndAge()">Students' Data</div>
+      <!--How many students are male, female or other genders/orientation-->
+
+      <div class="p-5 m-3 btn btn-large btn-primary col-md" onclick="contactForm()">Contact us</div>
+      <!--Minimum, maximum, and average age of students in the school-->
+    </div>
+  </div>
+  <div class="container-fluid fw-bold mt-5" Id="display">
+    <h2 class="text-center fw-bold">Welcome to School Statistics!</h2>
+    <div class="text-center p-5 m-5"><img src="altlogo.png" style="border-radius: 5px; border:1px solid black;"
+        alt="altschool logo"></div>
+    <p class="text-center m-5">Holiday Challenge by Learning Circle-277</p>
+  </div>
+
+  <div class="jumbotron text-center bg-secondary-light mt-5 mb-0 p-5">
+    School of Software Engineering | Learning circle-277_2022
+  </div>
+</body>
+
+</html>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
