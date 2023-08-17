@@ -14,7 +14,7 @@ function instructors() {
                 <p>Courses: </p>
             </li>
             <li class='col-md-4'>
-                <img src='yusuf.jpg' id='instructors' alt='Photo of Adewale'/>
+                <img src='./img/yusuf.jpg' id='instructors' alt='Photo of Adewale'/>
             </li>
 
             <li class='col-md-2'>
@@ -22,7 +22,7 @@ function instructors() {
                 <p>Courses: </p>
             </li>
             <li class='col-md-4'>
-                <img src='jerry.jpg' id='instructors' alt='Photo of Jerry'/>
+                <img src='./img/jerry.jpg' id='instructors' alt='Photo of Jerry'/>
             </li>
         </ol>
 
@@ -32,7 +32,7 @@ function instructors() {
                 <p>Courses: </p>
             </li>
             <li class='col-md-4'>
-                <img src='tabitha.jpg' id='instructors' alt='Photo of Tabitha'/>
+                <img src='./img/tabitha.jpg' id='instructors' alt='Photo of Tabitha'/>
             </li>
         
             <li class='col-md-2'>
@@ -40,7 +40,7 @@ function instructors() {
                 <p>Courses: </p>
             </li>
             <li class='col-md-4'>
-                <img src='oluwasetemi.jpg' id='instructors' alt='Photo of Oluwasetemi'/>
+                <img src='./img/oluwasetemi.jpg' id='instructors' alt='Photo of Oluwasetemi'/>
             </li>
         </ol>
 
@@ -50,7 +50,7 @@ function instructors() {
                 <p>Courses: </p>
             </li>
             <li class='col-md-4'>
-                <img src='rising.jpg' id='instructors' alt='Photo of Rising'/>
+                <img src='./img/rising.jpg' id='instructors' alt='Photo of Rising'/>
             </li>
         
             <li class='col-md-2'>
@@ -58,7 +58,7 @@ function instructors() {
                 <p>Courses: </p>
             </li>
             <li class='col-md-4'>
-                <img src='rukevwe.jpg' id='instructors' alt='Photo of Rukevwe'/>
+                <img src='./img/rukevwe.jpg' id='instructors' alt='Photo of Rukevwe'/>
             </li>
         </ol>
 
@@ -68,7 +68,7 @@ function instructors() {
                 <p>Courses: </p>
             </li>
             <li class='col-md-4'>
-                <img src='rachael.png' id='instructors' alt='avatar image'/>
+                <img src='./img/rachael.png' id='instructors' alt='avatar image'/>
             </li>
         
             <li class='col-md-2'>
@@ -76,7 +76,7 @@ function instructors() {
                 <p>Courses: </p>
             </li>
             <li class='col-md-4'>
-                <img src='.jpg' id='instructors' alt='Photo of instructor'/>
+                <img src='./img/.jpg' id='instructors' alt='Photo of instructor'/>
             </li>
         </ol>
     `
@@ -89,15 +89,15 @@ function studyTracks() {
         <ol class='row row-responsive'>
             <li class='col-md-4'>
                 <h3>Cloud Engr.</h3>
-                <img src='cloud.jpg' id='tracks' alt='Photo depicting cloud engr.'/>
+                <img src='.img/cloud.jpg' id='tracks' alt='Photo depicting cloud engr.'/>
             </li>
             <li class='col-md-4'>
                 <h3>Frontend</h3>
-                <img src='frontend.jpg' id='tracks' alt='Photo illustrating frontend'/>
+                <img src='.img/frontend.jpg' id='tracks' alt='Photo illustrating frontend'/>
             </li>
             <li class='col-md-4'>
                 <h3>Backend</h3>
-                <img src='backend.jpg' id='tracks' alt='Photo illustrating backend'/>
+                <img src='.img/backend.jpg' id='tracks' alt='Photo illustrating backend'/>
             </li>
         </ol>
     `
